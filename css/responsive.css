@@ -351,6 +351,9 @@
     .about_section::after {
         display: none;
     }
+    .icono{
+        padding-top: 40px;
+    }
     .icon_1 {
         padding-top: 40px;
     }
