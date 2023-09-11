@@ -247,7 +247,7 @@ table{
 
 
 .formaBoton{
-    background-color: green ;
+    background-color: #183c18;
     color: white;
     
     font-size: 100%;
@@ -268,7 +268,7 @@ table{
 }
 
 .formaBoton:hover {
-    color: #485750;
+    color: #293e35;
     background-color: #9bbc9b;
     cursor: pointer;
     box-shadow: none;
@@ -477,6 +477,17 @@ table{
     width: 100%;
     float: left;
     background-image: url(../images/services-bg.png);
+    background-size: cover;
+    height: auto;
+    padding-bottom: 90px;
+    margin-top: 90px;
+    background-repeat: no-repeat;
+}
+
+.metodo_section {
+    width: 100%;
+    float: left;
+    background-image: url(../images/work-bg.png);
     background-size: cover;
     height: auto;
     padding-bottom: 90px;
@@ -796,7 +807,7 @@ table{
 }
 
 .carousel-indicators .active {
-    background-color: rgb(24, 60, 24);
+    background-color: #183c18;
 }
 
 .carousel-indicators {
