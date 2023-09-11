@@ -171,6 +171,11 @@ img {
     padding-bottom: 0px;
 }
 
+.layout_padding_clients {
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
 .padding_0 {
     padding: 0px;
 }
@@ -209,6 +214,9 @@ img {
     color: #485750;
 }
 
+
+
+
 table{
     border-collapse: collapse;
     table-layout: fixed;
@@ -219,6 +227,15 @@ table{
   thead td:nth-child(2) {width: 33%;}
   thead td:nth-child(3) {width: 40%;}
 
+.sangria{
+	padding-left: 20px;
+    padding-right: 20px;
+}
+
+.espaciado{
+    margin-bottom: 20px; /* Puedes ajustar el valor según tus necesidades */
+}
+
 .fijar{
 
     z-index: 100;
@@ -227,6 +244,7 @@ table{
     bottom: 0; /* Coloca el botón en la parte inferior */
     right: 0; /* Coloca el botón en el borde derecho */
 }
+
 
 .formaBoton{
     background-color: green ;
@@ -484,7 +502,7 @@ table{
 }
 
 .our_text {
-    background-color: #ececeb;
+    background-color: #bebeb4;
     border-radius: 100%;
     color: #27814a;
     padding: 17px 10px;
@@ -724,22 +742,6 @@ table{
     background-color: #ffffff;
 }
 
-.client_box:hover {
-    background-color: #ffffff;
-}
-
-.client_box:hover .magna_text {
-    color: #000;
-}
-
-.client_box:hover .consectetur_text {
-    color: #000;
-}
-
-.client_box:hover .ipsum_text {
-    color: #000;
-}
-
 .left_main {
     width: 30%;
     float: left;
@@ -774,25 +776,6 @@ table{
     color: #000;
 }
 
-.quote_icon {
-    width: 30px;
-    float: left;
-    padding-top: 10px;
-    background-image: url(../images/quote-icon1.png);
-    height: 100px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin-top: 15px;
-}
-
-.quote_icon.active {
-    background-image: url(../images/quote-icon.png);
-}
-
-.client_box .quote_icon:hover {
-    background-image: url(../images/quote-icon.png);
-}
-
 .ipsum_text {
     width: 100%;
     float: left;
@@ -813,7 +796,7 @@ table{
 }
 
 .carousel-indicators .active {
-    background-color: #402fb7;
+    background-color: rgb(24, 60, 24);
 }
 
 .carousel-indicators {

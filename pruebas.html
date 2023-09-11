@@ -1,16 +1,96 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>Galería de Imágenes</title>
+    <style>
+        /* Estilos para la galería */
+        .galeria {
+            display: flex;
+            justify-content: center; /* Alineación horizontal al centro */
+            align-items: center; /* Alineación vertical al centro */
+            height: 300px; /* Ajusta la altura del contenedor según tus necesidades */
+
+        }
+
+        .imagen {
+            width: calc(50%); /* 2 imágenes por fila con espaciado entre ellas */
+            margin-bottom: 20px;
+            text-align: center; /* Centra el contenido */
+        }
+
+        .imagen img {
+            max-width: 50%; /* Muestra la imagen al 50% de su tamaño real */
+            height: auto; /* Mantiene la proporción de la imagen */
+        }
+
+        /* Estilos para la imagen en grande */
+        .imagen-en-grande {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            text-align: center;
+        }
+
+        .imagen-en-grande img {
+            max-width: 80%;
+            max-height: 80%;
+            margin: 10% auto;
+            display: block;
+        }
+    </style>
 </head>
-<body>
-  <button id="miBoton">Mostrar/ocultar Secciones</button>
-  <div id="seccion1" class="oculto">
-    <p>Contenido de la sección 1</p>
-  </div>
-  <div id="seccion2" class="oculto">
-    <p>Contenido de la sección 2</p>
-  </div>
-  <script src="js/codigo.js"></script>
+<body style="background-color: aquamarine;">
+    <h1>Galería de Imágenes</h1>
+
+    <!-- Contenedor de la galería -->
+    <div class="galeria">
+        <!-- Imagen 1 -->
+        <div class="imagen">
+            <img src="images/img-1.png" alt="Imagen 1" onclick="mostrarImagenEnGrande('images/img-1.png')">
+        </div>
+
+        <!-- Imagen 2 -->
+        <div class="imagen">
+            <img src="images/img-2.png" alt="Imagen 1" onclick="mostrarImagenEnGrande('images/img-2.png')">
+        </div>
+
+         <!-- Imagen 3 -->
+         <div class="imagen">
+            <img src="images/img-3.png" alt="Imagen 1" onclick="mostrarImagenEnGrande('images/img-3.png')">
+        </div>
+
+        <!-- Imagen 4 -->
+        <div class="imagen">
+            <img src="images/img-4.png" alt="Imagen 1" onclick="mostrarImagenEnGrande('images/img-4.png')">
+        </div>
+
+        <!-- Continúa agregando más imágenes siguiendo el mismo patrón -->
+    </div>
+
+    <!-- Imagen en grande -->
+    <div class="imagen-en-grande" id="imagen-en-grande">
+        <img src="" alt="Imagen en grande" id="imagen-en-grande-src" onclick="ocultarImagenEnGrande()">> 
+    </div>
+
+    <script>
+        // Función para mostrar la imagen en grande
+        function mostrarImagenEnGrande(src) {
+            var imagenEnGrande = document.getElementById('imagen-en-grande');
+            var imagenEnGrandeSrc = document.getElementById('imagen-en-grande-src');
+            imagenEnGrandeSrc.src = src;
+            imagenEnGrande.style.display = 'block';
+        }
+
+        // Función para ocultar la imagen en grande
+        function ocultarImagenEnGrande() {
+            var imagenEnGrande = document.getElementById('imagen-en-grande');
+            imagenEnGrande.style.display = 'none';
+        }
+    </script>
 </body>
 </html>
