@@ -210,11 +210,20 @@ img {
 }
 
 .botonOcultar:hover{
-    background-color: rgb(137, 192, 137);
+    background-color: #89c089;
     color: #485750;
 }
 
 
+.botonOcultar2{
+    background-color: #523726;
+    color: white;
+}
+
+.botonOcultar2:hover{
+    background-color: #b9967f;
+    color: #2c1f15;
+} 
 
 
 table{
@@ -234,6 +243,16 @@ table{
 
 .espaciado{
     margin-bottom: 20px; /* Puedes ajustar el valor según tus necesidades */
+}
+
+.carruselImagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sombraImagen{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .fijar{
@@ -491,7 +510,7 @@ table{
     background-size: cover;
     height: auto;
     padding-bottom: 90px;
-    margin-top: 90px;
+    /*margin-top: 90px;*/
     background-repeat: no-repeat;
 }
 
@@ -800,8 +819,8 @@ table{
 }
 
 .carousel-indicators li {
-    width: 50px;
-    height: 15px;
+    width: 100px;
+    height: 20px;
     border-radius: 40px;
     background-color: #0c0900;
 }
@@ -888,7 +907,8 @@ table{
     float: left;
     background-color: #070517;
     height: auto;
-    padding-bottom: 40px;
+    /*padding-bottom: 40px;*/
+    padding-bottom: 80px;
 }
 
 .address_main {
