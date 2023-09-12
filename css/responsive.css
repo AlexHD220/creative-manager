@@ -226,6 +226,7 @@
     .padding_left_15 {
         padding-left: 5px;
     }
+
     .address_main {
         padding: 5px 0px;
     }
@@ -400,10 +401,13 @@
         height: 27px;
     }
     .address_main {
-        background: #402fb7;
+        background: #0E4029;
         display: block;
         text-align: left;
+        align-items: center;
+        justify-content: center;
         padding-left: 15px;
+        border-radius: 15px;
     }
     .link_text {
         padding-top: 20px;

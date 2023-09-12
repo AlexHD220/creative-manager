@@ -923,6 +923,19 @@ table{
     background-size: 100%;
 }
 
+.redes{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    display: flex;
+    padding: 15px 0px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .address_text {
     width: 100%;
     font-size: 16px;
