@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
    <head>
       <meta charset="UTF-8">
       <title>Creative Manager</title>
@@ -45,10 +45,10 @@
 
 
    <body>
-      <!--header section start -->
-      <header class="header_section">
+      <!--Inicio seccion "Header" -->
+      <header id="header" class="header_section">
 
-         <div class = "fijar margenBoton derecha">
+         <div class = "fijar margenBoton">
             <a class="formaBoton" href="#contacto" style="font-size: 120%;">Contáctanos</a>
         </div>
 
@@ -71,13 +71,13 @@
                         <a class="nav-link" href="#servicios">Servicios</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#trabajos">Nuestro Trabajo</a>
+                        <a class="nav-link" href="#trabajos">Portafolio de Trabajo</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#servicio">Forma de Trabajar</a>
+                        <a class="nav-link" href="#proceso">Proceso de Servicio</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="tarjetaContacto.png" download="Tarjeta de Contacto - Crative Manager">Tarjeta de Contacto</a>
+                        <a class="nav-link descarga" target="_blank" href="tarjetaContacto.png" download="Tarjeta de Contacto - Creative Manager">Descargar Tarjeta de Contacto</a>
                      </li>
 
                   </ul>
@@ -87,7 +87,7 @@
 
 <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-         <!--banner section start -->
+         <!--Inicio de la sección de "Banner" -->
          <div class="layout_padding">
            
                      <div class="container">
@@ -105,13 +105,13 @@
                         </div>
                      </div>
          </div>
-         <!--banner section end -->
+         <!--Fin de la sección de "Banner" -->
       </header>
-      <!--header section end -->
+      <!--fin de la sección "Header" -->
    
 <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-      <!--about section start -->
+      <!--Inicio sección "Conócenos" -->
       <div id="nosotros" class="about_section layout_padding">
          <div class="container">
             <div class="row">
@@ -127,11 +127,11 @@
             </div>
          </div>
       </div>
-      <!--about section end -->
+      <!-- Fin de la sección de "Conócenos" -->
 
 <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-      <!--services section start -->
+      <!-- Inicio de la sección de "Servicios" -->
       <div id = "servicios" class="services_section layout_padding">
          <div class="container">
             <h1 style="line-height:2em;" class="service_taital">Nuestros <span class="our_text"><b>Servicios</b></span></h1>
@@ -246,7 +246,7 @@
 
          </div>
       </div>
-      <!--services section end -->
+      <!--Fin de la sección de "Servicios" -->
 
 <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
@@ -310,11 +310,11 @@
 
 <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-      <!--client section start-->
+      <!-- Inicio de la sección de "Proyectos" -->
       <div id="trabajos" class="client_section layout_padding">
          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
-            <h1 style="line-height:2em; color: black;" class="service_taital"><span class="our_text"><b>Nuestro</b></span> Trabajo</h1>
+            <h1 style="line-height:2em; color: black;" class="service_taital"><span class="our_text"><b>Portafolio</b></span> de Trabajos</h1>
             <p style="color: black;" class="sangria service_text">Nos enorgullece destacar nuestros logros, y no hay mejor manera de hacerlo que compartiendo algunos servicios que hemos completado con éxito.</p>
 
             
@@ -448,13 +448,14 @@
             </div>
          </div>
       </div>
-     <!--client section end -->
+     <!-- Fin de la sección de "Proyectos" -->
 
 <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
   
-   <div id = "servicios" class="metodo_section layout_padding">
+   <!-- Inicio de la sección de "Proceso de Servicio" --> 
+   <div id = "proceso" class="metodo_section layout_padding">
       <div class="container">
-         <h1 style="line-height:2em; color: #361F10;" class="service_taital">Forma de <span class="our_text"><b>Trabajo</b></span></h1>
+         <h1 style="line-height:2em; color: #361F10;" class="service_taital">Proceso de <span class="our_text"><b>Servicio</b></span></h1>
          <p style="padding-bottom: 50px; color: #361F10;" class="service_text">En <b>Creative Manager</b>, valoramos la transparencia y la eficiencia en cada proyecto que emprendemos. Nuestro proceso de trabajo está diseñado para brindarte resultados excepcionales y una experiencia sin problemas. Aquí está cómo trabajamos:</p>
 
          <center><button class="botonOcultar2" id="miBoton2" onclick="cambiarTexto()">Mostrar Menos Detalles</button></center><br>
@@ -539,9 +540,11 @@
          <p style="padding-top: 30px; color: #361F10;" class="service_text"><b>Estamos comprometidos con la excelencia en cada paso del proceso.</b> Nuestro objetivo es brindarte soluciones creativas y efectivas que impulsen tu éxito y tu presencia en el mercado. ¡Esperamos trabajar contigo en futuros proyectos!</p>
       </div>
    </div>
+   <!-- Fin de la sección de "Proceso de Servicio" --> 
+
 <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-      <!--footer section start -->
+      <!-- Inicio de la sección "Footer" -->
       <div id = "contacto"class="footer_section layout_padding">
          <div class="container">
             
@@ -608,21 +611,29 @@
 
          </div>
       </div>
-      <!--footer section end -->
+      <!-- Fin de la sección "Footer" -->
 
 <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-      <!--copyright section start -->
+      <!-- Inicio de la sección "Regresar a Inicio" -->
+      <div class="centrar">
+         <div><a href="#header"><img style="padding-top: 20px; padding-bottom: 10px;" onmouseout="this.src='images/inicio.png';" onmouseover="this.src='images/inicio2.png';" src="images/inicio.png"/></a></div>
+      </div>
+      <!-- Fin de la sección "Regresar a Inicio" -->
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+      <!-- Inicio de la sección "Copyright" -->
       <div class="copyright_section">
          <div class="container">
             <center><p style="font-size: 125%" ><b>&copy; 2023 Creative Manager - <a target="_blank" href="http://ordenjuridico.gob.mx/Leyes%20para%20todos/LFDA.pdf">Todos los derechos reservados</a></b></p></center>
          </div>
       </div>
-      <!--copyright section end -->
+      <!-- Fin de la sección "Copyright" -->
 
 <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-      <!-- Javascript files-->
+      <!-- Archivos de Javascript-->
       <script src="js/codigo.js"></script>
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
@@ -640,5 +651,6 @@
       <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
       <script src="../../assets/js/vendor/popper.min.js"></script>
       <script src="../../dist/js/bootstrap.min.js"></script>
+
    </body>
 </html>
