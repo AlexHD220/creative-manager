@@ -11,7 +11,9 @@ Este repositorio contiene el código fuente y los recursos utilizados para const
 - **index.html**: Página principal del sitio web.
 - **css/**: Carpeta que contiene archivos de estilo CSS.
 - **images/**: Carpeta que contiene imágenes y recursos gráficos.
-- **js/**: Carpeta que contiene archivos JavaScript (si es necesario).
+- **js/**: Carpeta que contiene archivos JavaScript.
+- **tarjetaContacto.png**: Tarjeta de presentación Creative Manager.
+
 
 ## Cómo Contribuir
 
